@@ -66,7 +66,6 @@ in the code.
 ```javascript
 // Browser-side applications do not use the API secret.
 var client = new Dropbox.Client({ key: "your-key-here" });
-});
 ```
 
 if your application runs in node.js or in another server environment that you
